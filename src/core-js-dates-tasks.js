@@ -59,7 +59,7 @@ function getDayName(date) {
     'Thursday',
     'Friday',
     'Saturday',
-  ][new Date(date).getDay()];
+  ][new Date(date).getUTCDay()];
 }
 
 /**
